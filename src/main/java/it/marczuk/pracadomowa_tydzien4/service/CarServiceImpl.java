@@ -39,10 +39,8 @@ public class CarServiceImpl implements CarService {
     }
 
     @Override
-    public Optional<Car> addCar(Car car) {
-        List<Car> carList = getAllCars();
-        boolean isCarExists = carList.stream().anyMatch(newCar -> newCar.getMark().equals(car.getMark()));
-        return isCarExists ? Optional.empty() : Optional.of(saveCar(car));
+    public void addCar(Car car) {
+        repository.addCar(car);
     }
 
     @Override
@@ -85,11 +83,5 @@ public class CarServiceImpl implements CarService {
             return first;
         }
         return Optional.empty();
-    }
-
-    private Car saveCar(Car car) {
-        List<Car> carList = getAllCars();
-        carList.add(car);
-        return car;
     }
 }

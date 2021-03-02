@@ -13,7 +13,7 @@ public interface CarService {
 
     List<Car> getCarsByColor(String color);
 
-    Optional<Car> addCar(Car car);
+    void addCar(Car car);
 
     Optional<Car> modCar(Car car);
 

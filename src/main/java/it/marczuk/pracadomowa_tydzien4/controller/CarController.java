@@ -25,13 +25,13 @@ public class CarController {
     @GetMapping("/cars")
     public String getCar(Model model) {
         List<Car> carList = carService.getAllCars();
+        model.addAttribute("newCar", new Car());
+        model.addAttribute("sendCar", new PomId());
         if(!carList2.isEmpty()) {
             model.addAttribute("cars", carList2);
         } else {
             model.addAttribute("cars", carList);
         }
-        model.addAttribute("newCar", new Car());
-        model.addAttribute("sendCar", new PomId());
         return "index";
     }
 
