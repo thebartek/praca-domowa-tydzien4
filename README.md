@@ -13,4 +13,4 @@ Rozbuduj swoją aplikacje z poprzedniego tygodnia (<a href="https://github.com/t
 <br><br>
 <img src="https://i.imgur.com/1sSGmes.png"/>
 <br><br>
-<img src="https://i.imgur.com/RgclpbD.png"/>
+<img src="https://i.imgur.com/2epJXlo.png"/>
