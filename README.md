@@ -2,7 +2,6 @@
 Kurs Spring Boot 2 - Tydzień 4
 
 Rozbuduj swoją aplikacje z poprzedniego tygodnia (<a href="https://github.com/thebartek/praca-domowa-tydzien3">Kurs Spring Boot 2 - Tydzień 3</a>) o interfejs graficzny, który umożliwi:<br>
-<br>
 <ul>
   <li>wyświetlanie wszystkich pozycji</li>
   <li>pobieranie elementu po jego id</li>
