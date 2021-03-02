@@ -10,3 +10,7 @@ Rozbuduj swoją aplikacje z poprzedniego tygodnia (<a href="https://github.com/t
   <li>modyfikowanie jednego z pól pozycji</li>
   <li>usuwania jednej pozycji</li>
 </ul>
+<br><br>
+<img src="https://i.imgur.com/1sSGmes.png"/>
+<br><br>
+<img src="https://i.imgur.com/RgclpbD.png"/>
